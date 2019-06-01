@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<title>
+			www.enshop.com
+		</title>
+			
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" href="css/background.css">
+			<link rel="stylesheet" href="css/contact.css">
+			<link rel="stylesheet" href="css/styles.css">
+
+	</head>
+
+	<body>
+
+		<div class="navbar">
+			<a href="Index.html"> صفحه اصلی  </a> 
+			<a href="products.html"> محصولات  </a> 
+			<a href="aboutUs.html">معرفی ما </a> 
+			<a class="active" href="tellAdd.html">تماس با ما </a>
+		</div>
+		
+		<br>
+		
+		<div class="centeralighn">
+			<h1>ارتباط با ما </h1>
+			<h3> برای ارتباط با ما خواهشا فرم زیر را پر کنید</h3>
+		</div>
+
+		<!--ContactUs-->
+		
+		<div class="container">
+		  <form action="/action_page.php">
+
+			<label for="email"><b>ایمیل  </b></label>
+		    <input type="text" placeholder=" ایمیل را وارد کنید " name="email" required>
+
+		    <label for="psw"><b> رمز </b></label>
+		    <input type="password" placeholder="رمز خود را وارد کنید " name="psw" required>
+
+		    <label for="fname"><b>نام </b></label>
+		    <input type="text" id="fname" name="fname" placeholder="نام خود را وارد کنید ">
+
+		    <label for="lname"><b>نام خانوادگی </b></label>
+		    <input type="text" id="lname" name="lname" placeholder=" نام خانوادگی خود را وارد کنید ">
+
+		    <label for="country"><b> شهر </b></label>
+		    <select id="country" name="country">
+		      <option value="tehran"> تهران </option>
+		      <option value="karaj"> کرج </option>
+		      <option value="qazvin"> قزوین </option>
+		      <option value="ahvaz"> اهواز </option>
+		      <option value="gilan"> گیلان </option>
+		      <option value="mazandaran"> مازندران </option>
+		      <option value="tabriz"> تبریز </option>
+		    </select>
+
+		    <label for="subject"> پیام </label>
+		    <textarea id="subject" name="subject" placeholder=" پیام خود را بنویسید " style="height:200px"></textarea>
+
+		    <input type="submit" value="ارسال ">
+		  </form>
+		</div>
+
+	</body>
+
+</html>

@@ -1,0 +1,17 @@
+#borderimg2 {
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(border.png) 20% round;
+}
+
+.productsImg{
+	float: center;
+	text-align: center;
+}
+
+@media only screen and (max-width: 500px){
+	.productsImg{
+
+		width:100%;
+	}
+}
